@@ -23,6 +23,7 @@ body {
 h1{
     font-weight: 900;
     color: chocolate;
+    font-size: 46px;
 }
 
 .game{
@@ -36,11 +37,13 @@ h2{
     text-align: center;
     color: white;
     margin-bottom: 40px;
+    font-size: 30px;
 }
 
 .choices {
     display: flex;
     gap: 2rem;
+    margin-bottom: 40px;
 }
 
 .button{
@@ -58,4 +61,23 @@ h2{
 .button:hover {
     background-color: chocolate;
     color: white;
+}
+
+.scores{
+    display: flex;
+    gap:8em;
+}
+
+.current-score{
+    text-align: center;
+    font-weight: 500;
+    font-size: 28px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.score-text{
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
 }
